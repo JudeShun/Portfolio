@@ -1,0 +1,25 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 80%;
+  width: 70%;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+img {
+  margin-left: 10%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 1px;
+  width: 1000px;
+  margin-left: 10%;
+}
+h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: black;
+  font-size: 60px;
+  padding-top: 10%;
+  text-align: center;
+}

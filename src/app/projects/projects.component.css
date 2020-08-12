@@ -1,0 +1,35 @@
+main {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.card {
+  width: 50%;
+  box-shadow: black;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.card-img-top {
+  margin-left: 5%;
+}
+.card-body {
+  text-align: center;
+}
+
+h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: black;
+  font-size: 60px;
+  padding-top: 6%;
+  text-align: center;
+}
+.card1{
+  width: 50%;
+  box-shadow: black;
+  margin-left: 20%;
+  margin-top: 10%;
+  text-align: center;
+}

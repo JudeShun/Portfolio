@@ -1,0 +1,52 @@
+.body{
+    height: 500px;
+}
+h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+h2 {
+    font-family:'Times New Roman';
+    color: black;
+    font-size: 15px;
+    padding-top: 5%;
+    /* margin-left: 15%; */
+   
+  }
+.img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 8%;
+    margin-top: 0;
+    /* float: to;
+    position: absolute;
+    top: 930%; */
+}
+.card{
+    border-radius: 1px;
+    /* border-style: solid ; */
+    /* border-color: black; */
+    border-width: 2%;
+    margin-left: 15%;
+    padding-top: 5%;
+    box-shadow: 0 4px 8px 0 black(0, 0, 0, 0.2);
+    width:900px;
+    height: 400px;
+}
+.title{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: black;
+    font-size: 20px;
+    margin-left: 20%;
+    padding-top: 8%;
+}
+#container{
+    box-shadow: 0 4px 8px 0 black(0, 0, 0, 0.2);
+    height: 100px;
+    width: 400px;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
