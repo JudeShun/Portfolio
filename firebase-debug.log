@@ -1,0 +1,17 @@
+[debug] [2020-08-18T13:01:43.215Z] ----------------------------------------------------------------------
+[debug] [2020-08-18T13:01:43.218Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\2ndyrGroupB\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js open
+[debug] [2020-08-18T13:01:43.219Z] CLI Version:   8.7.0
+[debug] [2020-08-18T13:01:43.219Z] Platform:      win32
+[debug] [2020-08-18T13:01:43.219Z] Node Version:  v10.16.3
+[debug] [2020-08-18T13:01:43.220Z] Time:          Tue Aug 18 2020 21:01:43 GMT+0800 (China Standard Time)
+[debug] [2020-08-18T13:01:43.221Z] ----------------------------------------------------------------------
+[debug] [2020-08-18T13:01:43.221Z] 
+[debug] [2020-08-18T13:01:43.233Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-18T13:01:43.233Z] > authorizing via signed-in user
+[debug] [2020-08-18T13:01:43.236Z] [iam] checking project jude-portfolio for permissions ["firebase.projects.get"]
+[debug] [2020-08-18T13:01:43.241Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/jude-portfolio:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-08-18T13:01:44.442Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 18 Aug 2020 13:01:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=834","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-18T13:01:44.444Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/jude-portfolio  
+ 
+[debug] [2020-08-18T13:01:46.080Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 18 Aug 2020 13:01:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}

@@ -1,35 +1,92 @@
 main {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 1px;
-  margin-left: 10%;
+  grid-gap: 2px;
+  margin-left: 5%;
   margin-top: 5%;
 }
-
 .card {
-  width: 50%;
-  box-shadow: black;
-  margin-left: 5%;
-  margin-top: 10%;
-}
+  width: 350px;
+  height: 350px;
+  margin-left: 20%;
+  box-shadow: 0 4px 8px 0 skyblue;
+  border-radius: 5px;
+  margin-top: 25%;
+} 
 .card-img-top {
   margin-left: 5%;
+  margin-top: 5%;
 }
 .card-body {
-  text-align: center;
+  box-shadow: 0 4px 8px 0 skyblue;
+  width:250px;
+  height:120px;
+  margin-left: 15%;
+  margin-top: 10%;
+  position: relative;
 }
-
+.card-body1 {
+  box-shadow: 0 4px 8px 0 skyblue;
+  width:250px;
+  height:120px;
+  margin-left: 15%;
+  margin-top: 10%;
+  position: relative;
+}
+.card-body2 {
+  box-shadow: 0 4px 8px 0 skyblue;
+  width:250px;
+  height:120px;
+  margin-left: 15%;
+  margin-top: 10%;
+  position: relative;
+}
+.card-body3 {
+  box-shadow: 0 4px 8px 0 skyblue;
+  width:250px;
+  height:120px;
+  margin-left: 15%;
+  margin-top: 10%;
+  position: relative;
+}
+.card-body4 {
+  box-shadow: 0 4px 8px 0 skyblue;
+  width:250px;
+  height:120px;
+  margin-left: 15%;
+  margin-top: 10%;
+  position: relative;
+}
 h1 {
   font-family: Brush Script MT, Brush Script Std, cursive;
   color: black;
   font-size: 60px;
-  padding-top: 6%;
+ margin-top: 5%;
   text-align: center;
 }
-.card1{
-  width: 50%;
-  box-shadow: black;
-  margin-left: 20%;
-  margin-top: 10%;
+.card1 {
+  width: 350px;
+  height: 350px;
+  margin-left: 41%;
+  margin-top: 25%;
+  box-shadow: 0 4px 8px 0 skyblue;
+  border-radius: 5px;
+}
+.card-text {
   text-align: center;
+  font-size: 15px;
+  font-family: Georgia;
+  margin-left: 5%;
+}
+.card-title{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 20px;
+  font-style: bold;
+  font-family: Georgia;
+
+}
+.btn{
+  margin-left:40px;
+ 
 }

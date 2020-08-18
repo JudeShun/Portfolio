@@ -1,7 +1,7 @@
 .centered {
     font-family: Brush Script MT, Brush Script Std, cursive;
     color: black;
-    font-size: 60px;
+    font-size: 70px;
     padding-top: 0.5%;
     text-align: center;   
     /* top: 80%;
@@ -10,7 +10,7 @@
   .b {
     font-family: Brush Script MT, Brush Script Std, cursive;
     color: black;
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 0.5%;
     text-align: center;
   }
@@ -35,4 +35,11 @@
 .navbar{
   background-color: black;
   height: 60px;
+}
+h1{
+  font-family: Tahoma;
+  color:rgb(15, 14, 14);
+  font-size: 20px;
+  text-align: center;
+  font-style:bold;
 }

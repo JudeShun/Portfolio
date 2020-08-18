@@ -1,52 +1,48 @@
-.body{
-    height: 500px;
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1px;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: black;
+  font-size: 60px;
+  text-align: center;
 }
-h1{
-    font-family: Brush Script MT, Brush Script Std, cursive;
-    color: black;
-    font-size: 60px;
-    text-align: center;
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+.card {
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 skyblue;
+  margin-left: 40px;
+  margin-top: 20px;
+  text-align: center;
 }
 h2 {
-    font-family:'Times New Roman';
-    color: black;
     font-size: 15px;
-    padding-top: 5%;
-    /* margin-left: 15%; */
-   
-  }
-.img{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin-left: 8%;
-    margin-top: 0;
-    /* float: to;
-    position: absolute;
-    top: 930%; */
+    height: 80px;
+    width: 300px;
+    font-family: Georgia;
+    text-align:justify;
+    margin-left: 10%;
+
+    
 }
-.card{
-    border-radius: 1px;
-    /* border-style: solid ; */
-    /* border-color: black; */
-    border-width: 2%;
-    margin-left: 15%;
-    padding-top: 5%;
-    box-shadow: 0 4px 8px 0 black(0, 0, 0, 0.2);
-    width:900px;
-    height: 400px;
-}
-.title{
+h3{
+    font-size: 40px;
+    text-align:center;
+    box-shadow: 0 4px 8px 0 skyblue;
     font-family: Brush Script MT, Brush Script Std, cursive;
-    color: black;
-    font-size: 20px;
-    margin-left: 20%;
-    padding-top: 8%;
+
 }
-#container{
-    box-shadow: 0 4px 8px 0 black(0, 0, 0, 0.2);
-    height: 100px;
-    width: 400px;
-    margin-left: 40%;
-    margin-top: 10%;
-  }
+
+
